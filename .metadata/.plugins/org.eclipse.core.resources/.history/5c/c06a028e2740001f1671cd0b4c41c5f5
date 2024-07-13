@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+	th:replace="~{base::layout(~{::section})}">
+<head>
+	<body>
+		<h1>Register Page</h1>
+	</body>
+</html>

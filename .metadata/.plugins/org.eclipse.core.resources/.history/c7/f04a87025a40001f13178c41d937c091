@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="base::layout(~{::section})">
+
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Shopping Cart</title>
+</head>
+
+<body>
+	<section th:fragment="content">
+		
+		<div class="container mt-5 p-5">
+			<div class="col-md-6 p-5">
+				<img alt="" src="img/ecom.png" width="100%" height="400px">
+			</div>
+			<div class="col-md-6 p-5">
+				<div class = "card-header">
+					<p class="fs-4 text-center">Login</p>
+				</div>
+								
+			</div>
+		</div>
+		
+		</section>
+
+	
+	<!--End Footer-->
+</body>
+
+</html>

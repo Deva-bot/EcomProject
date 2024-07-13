@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+</head lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="base::layout(~{::section})">
+
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Shopping Cart</title>
+</head>
+
+<body>
+	<section th:fragment="content">
+		<div class="container">
+			<div class="col-md-12">
+				<div class="col-md-6">
+					<img alt="" src="/img/product_img/laptop.jpg" width="330px" height="400px">
+					
+				</div>
+				
+			</div>
+		</div>
+	</section>
+</body>
+
+</html>
